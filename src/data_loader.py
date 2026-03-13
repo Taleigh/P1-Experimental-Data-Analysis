@@ -21,7 +21,6 @@ def load_dataset(filepath):
         "thal",
         "target"
     ]
-
     df = pd.read_csv(filepath, names=columns)
 
     return df
